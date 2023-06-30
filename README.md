@@ -18,8 +18,8 @@ To run the Fibonacci API in a virtual environment, you can follow these steps:
 1. Create and activate a virtual environment:
 
 ```shell
-   python -m venv venv       # Create a new virtual environment
-   source venv/bin/activate # Activate the virtual environment
+python -m venv venv       # Create a new virtual environment
+source venv/bin/activate # Activate the virtual environment
 
 ```
 
@@ -51,7 +51,7 @@ To run the Fibonacci API using Docker, you can follow these steps:
 1. Build the Docker image:
 
 ```shell
-   docker build -t my-django-app .
+docker build -t my-django-app .
 ```
 
 Run a container from the Docker image:
