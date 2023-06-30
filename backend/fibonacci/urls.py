@@ -18,5 +18,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
+    path('', views.get_next_fibonacci, name='home'),
     path('fibonacci/', views.get_next_fibonacci, name='fibonacci'),
 ]
