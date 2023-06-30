@@ -26,14 +26,12 @@ To run the Fibonacci API in a virtual environment, you can follow these steps:
 Install the project dependencies:
 
 ```shell
-Copy code
 pip install -r requirements.txt
 
 Run the Django development server:
 ```
 
 ```shell
-Copy code
 python manage.py runserver 8080
 Access the Fibonacci API:
 ```
