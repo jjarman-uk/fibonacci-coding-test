@@ -15,10 +15,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the Django project files to the working directory
-COPY . .
+COPY ./backend .
 
 # Expose the port that the Django application will run on
-EXPOSE 8000
+EXPOSE 8080
 
 # Run the Django development server when the container starts
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8080"]
