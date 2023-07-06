@@ -7,6 +7,11 @@ This is a simple Django app that provides an API for generating Fibonacci number
 - Python 3.11
 - Django 4.2
 
+## Design Document
+Pdf created by running the following command
+
+` docker run -v $PWD:/opt/docs auchida/markdown-pdf markdown-pdf -o DesignDocument.pdf DesignDocument.md` 
+
 ## How to run
 
 ### Virtualenv
@@ -59,3 +64,5 @@ docker run -p 8080:8080 my-django-app
 ```
 
 Open your web browser and visit http://localhost:8080/fibonacci/ to retrieve the next Fibonacci number. Each time you refresh the page or make a request to the API, it will generate and return the next number in the Fibonacci sequence.
+
+
