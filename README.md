@@ -8,9 +8,10 @@ This is a simple Django app that provides an API for generating Fibonacci number
 - Django 4.2
 
 ## Design Document
-Pdf created by running the following command
+Pdf created by running the following command:-
 
-` docker run -v $PWD:/opt/docs auchida/markdown-pdf markdown-pdf -o DesignDocument.pdf DesignDocument.md` 
+`docker run -v $PWD:/opt/docs auchida/markdown-pdf markdown-pdf -o DesignDocument.pdf DesignDocument.md`
+
 
 ## How to run
 
@@ -32,20 +33,22 @@ Install the project dependencies:
 
 ```shell
 pip install -r requirements.txt
+```
 
 Run the Django development server:
-```
 
 ```shell
 python manage.py runserver 8080
 Access the Fibonacci API:
 ```
 
-Open your web browser and visit http://localhost:8080/fibonacci/ to retrieve the next Fibonacci number. Each time you refresh the page or make a request to the API, it will generate and return the next number in the Fibonacci sequence.
+Run tests:
 
-Deactivate the virtual environment:
+```shell
+python manage.py test
+```
 
-Once you're done using the Fibonacci API, you can deactivate the virtual environment:
+Open your web browser and visit http://localhost:8080/to retrieve the next Fibonacci number. Each time you refresh the page or make a request to the API, it will generate and return the next number in the Fibonacci sequence.
 
 ### Docker
 
@@ -63,6 +66,4 @@ Run a container from the Docker image:
 docker run -p 8080:8080 my-django-app
 ```
 
-Open your web browser and visit http://localhost:8080/fibonacci/ to retrieve the next Fibonacci number. Each time you refresh the page or make a request to the API, it will generate and return the next number in the Fibonacci sequence.
-
-
+Open your web browser and visit http://localhost:8080/ to retrieve the next Fibonacci number. Each time you refresh the page or make a request to the API, it will generate and return the next number in the Fibonacci sequence.
