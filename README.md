@@ -48,7 +48,7 @@ Run tests:
 python manage.py test
 ```
 
-Open your web browser and visit http://localhost:8080/to retrieve the next Fibonacci number. Each time you refresh the page or make a request to the API, it will generate and return the next number in the Fibonacci sequence.
+Open your web browser and visit http://localhost:8080/ to retrieve the next Fibonacci number. Each time you refresh the page or make a request to the API, it will generate and return the next number in the Fibonacci sequence.
 
 ### Docker
 
