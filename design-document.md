@@ -87,3 +87,4 @@ The deployment also includes additional files and directories:
 - Migrate state to use remote state on s3/dynamo.
 - Separate into dev/production environments
 - Use tf workspaces to separate dev and prod workspaces
+- Implement tfsec static code analysis
